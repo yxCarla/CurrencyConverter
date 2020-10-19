@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Currency Converter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="wdith=device-width, initial-scale=1.0">
+        <meta name="description" content="A handy currency converter for some of the most used currencies around the world">
+        <meta name="author" content="yxCarla">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Economica" rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Source Code Pro" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body onload="hideAll()">
+        <h1>Currency Converter</h1>
+        <div id="info">Converts USD, Euro, Yen, British Pound, and Canadian Dollar</div>
+        <div id="main">
+            <div id="choices">
+                What is your starting currency?
+            </div>
+            <div id="currency_buttons">
+                <button class="button" onclick="chosenUSD()">USD</button>
+                <button class="button" onclick="chosenEuro()">Euro</button>
+                <button class="button" onclick="chosenYen()">Yen</button>
+                <button class="button" onclick="chosenPound()">British Pound</button>
+                <button class="button" onclick="chosenCD()">Canadian Dollar</button>
+            </div>
+            <div id="input_div">
+                <input type="number" id="usd_starting" oninput="convertNoUSD(this.value)" placeholder="USD">
+                <input type="number" id="euro_starting" oninput="convertNoEuro(this.value)" placeholder="Euro">
+                <input type="number" id="yen_starting" oninput="convertNoYen(this.value)" placeholder="Yen">
+                <input type="number" id="pound_starting" oninput="convertNoPound(this.value)" placeholder="Pound">
+                <input type="number" id="cd_starting" oninput="convertNoCD(this.value)" placeholder="CAD">
+            </div>
+            <div id="outputs">
+                <div class="output" id="usd_output">USD: </div>
+                <div class="output" id="euro_output">Euro: </div>
+                <div class="output" id="yen_output">Yen: </div>
+                <div class="output" id="pound_output">British Pound: </div>
+                <div class="output" id="cd_output">Canadian Dollar: </div>
+            </div>
+            <div id="footer_info">
+                
+            </div>
+        </div>
+    </body>
+</html>

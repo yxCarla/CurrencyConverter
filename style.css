@@ -1,0 +1,67 @@
+@media only screen and (min-width: 811px) {
+    h1 {
+        text-align: center;
+        color: #26d399;
+        font-size: 8vh;
+        font-family: 'Economica';
+    }
+
+    #info {
+        text-align: center;
+        font-size: 3.6vh;
+        font-family: 'Economica';
+    }
+
+    #main {
+        width: 35vw;
+        height: fit-content;
+        margin: 4vh auto 0 auto;
+        background-color: #70f792;
+    }
+
+    #choices {
+        font-size: 2.7vh;
+        font-family: 'Source Code Pro';
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .button {
+        margin-top: 1.4vh;
+        background-color: #26d399;
+        font-family: 'Source Code Pro';
+        cursor: pointer;
+        user-select: none;
+        font-size: 2.1vh;
+    }
+
+    #currency_buttons {
+        margin-left: inherit;
+        margin-right: inherit;
+        width: fit-content;
+        padding-bottom: 4vh;
+    }
+
+    #input_div {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+    }
+
+    .output {
+        font-family: 'Source Code Pro';
+    }
+
+    #outputs {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+        padding-bottom: 4vh;
+    }
+
+    #footer_info {
+        color: #0e8d32;
+        font-size: 2.3vh;
+        font-family: 'Source Code Pro';
+        text-align: center;
+        padding-bottom: 3vh;
+    }
+}
