@@ -23,7 +23,7 @@ function chosenUSD() {
     chosen_cd.style.display = 'none';
     outputs.style.display = 'block';
 
-    footerInfo.innerHTML = "You are converting from United States Dollars (USD)";
+    footerInfo.innerHTML = "You are converting from US Dollars (USD)";
 }
 
 function chosenEuro() {
