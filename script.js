@@ -208,4 +208,5 @@ function convertNoCD() {
     cdOutput.innerHTML = 'Canadian Dollar:' + " " + cd_output.toFixed(2);
 }
 
+
 var footerInfo = document.getElementById('footer_info');
